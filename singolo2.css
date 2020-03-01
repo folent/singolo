@@ -1,0 +1,152 @@
+.portfolio__wrapper {
+    height: 870px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    padding-top: 63px;
+}
+
+.layout-4-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 620px;
+    overflow: hidden;
+}
+
+.portfolio___description {
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #767e9e;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: -.4px;
+}
+
+.portfolio__item {
+    margin-bottom: 20px;
+    max-width: 220px;
+    max-height: 187px;
+    overflow: hidden;
+}
+
+.portfolio__tags {
+    margin-bottom: 20px;
+}
+
+.tag {
+    font-size: 1.2rem;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 6px;
+    padding: 4px 6px;
+    width: 80px;
+    height: 25px;
+}
+
+.tag:hover {
+    border: 1px solid #dedede;
+    color: #dedede;
+    cursor: pointer;
+}
+
+.tag_bordered {
+    border-radius: 5px;
+    border: 1px solid #666d89;
+}
+
+.tag_selected {
+    color: #dedede;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+
+.about-us__wrapper {
+    height: 728px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #fff;
+    padding-top: 63px;
+}
+
+.about-us___description {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #767e9e;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: -.4px;
+}
+
+.layout-3-column {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+
+.about-us__item {
+    width: 32%;
+}
+
+.about-us__item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-us__item:last-child {
+    margin-left: 2px;
+}
+
+.about-us__name {
+    margin: 15px 0 10px 0;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #666d89;
+    font-family: "Lato Black", sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.about-us__social_networks {
+    display: flex;
+    justify-content: left;
+    margin-top: 22px;
+}
+
+.about-us__social_networks span {
+    margin-right: 6px;
+}
+
+.facebook {
+    background-image: url(assets/img/social_networks/facebook.svg);
+    width: 34px;
+    height: 35px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.google {
+    background-image: url(assets/img/social_networks/google.svg);
+    width: 34px;
+    height: 35px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.twitter {
+    background-image: url(assets/img/social_networks/twitter.svg);
+    width: 134px;
+    height: 135px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.linkedin {
+    background-image: url(assets/img/social_networks/linkedin.svg);
+    width: 34px;
+    height: 35px;
+    display: inline-block;
+    cursor: pointer;
+    fill: red;
+}
