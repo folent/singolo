@@ -240,6 +240,64 @@ p {
     overflow: hidden;
 }
 
+.portfolio__item:nth-child(1)>img {
+    top: -5%;
+    left: -3%;
+}
+
+.portfolio__item:nth-child(2)>img {
+    top: -23%;
+    left: -37%;
+}
+
+.portfolio__item:nth-child(3)>img {
+    left: -5%;
+}
+
+.portfolio__item:nth-child(4)>img {
+    left: -11%;
+}
+
+.portfolio__item:nth-child(5)>img {
+    top: -8%;
+    left: -5%;
+}
+
+.portfolio__item:nth-child(6)>img {
+    top: -1%;
+    left: -7%;
+}
+
+.portfolio__item:nth-child(7)>img {
+    top: -20%;
+    left: -14%;
+}
+
+.portfolio__item:nth-child(8)>img {
+    top: -16%;
+    left: -11%;
+}
+
+.portfolio__item:nth-child(9)>img {
+    top: -1%;
+    left: -7%;
+}
+
+.portfolio__item:nth-child(10)>img {
+    top: -60%;
+    left: -64%;
+}
+
+.portfolio__item:nth-child(11)>img {
+    top: -93%;
+    left: -65%;
+}
+
+.portfolio__item:nth-child(12)>img {
+    top: -31%;
+    left: -16%;
+}
+
 .portfolio__item img {
     position: relative;
 }
@@ -406,7 +464,7 @@ p {
 .layout-2-column {
     display: flex;
     justify-content: space-between;
-    padding-top: 43px;
+    padding-top: 42px;
 }
 
 .quote__form input {
