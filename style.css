@@ -87,14 +87,14 @@ h6 {
 }
 
 .slider {
-    height: 600px;
     position: relative;
-    background-color: #f06c64;
-    border-bottom: 6px solid #ea676b;
 }
 
 .slider__wrapper {
     position: relative;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+    height: 600px;
 }
 
 .slider__content {
@@ -115,20 +115,20 @@ h6 {
 
 .arrows__prev {
     position: absolute;
-    top: 52%;
+    top: 47%;
     left: 2px;
     padding-left: 40px;
 }
 
 .arrows__next {
     position: absolute;
-    top: 52%;
+    top: 47%;
     right: 0;
     padding-right: 40px;
 }
 
-.services {
-    padding: 63px 0 31px 0;
+.wrapper__services {
+    padding: 63px 40px 31px 40px;
     color: #767e9e;
     font-size: 1.8rem;
     background-color: #f2f2f2;
