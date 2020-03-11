@@ -68,19 +68,23 @@ h6 {
 
 .navigation_list {
     text-transform: uppercase;
-    margin-right: 29px;
+    padding-right: 29px;
     list-style: none;
     cursor: pointer;
     position: relative;
 }
 
 .navigation_list:last-child {
-    margin-right: 0;
+    padding-right: 0;
 }
 
 .navigation_list:hover,
-.navigation_list_focused {
+.navigation_list__active {
     color: #f06c64;
+}
+
+.navigation_list__active:hover {
+    color: #fff;
 }
 
 .slider {
@@ -370,6 +374,7 @@ p {
     font-family: "Lato Black", sans-serif;
     font-weight: bolder;
     text-align: left;
+    white-space: nowrap;
 }
 
 .about-us__information {
