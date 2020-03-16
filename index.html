@@ -10,43 +10,53 @@
 </head>
 
 <body>
+
     <header class="header">
         <div class="wrapper header__wrapper">
             <h1 class="logo">singolo<span>*</span></h1>
             <nav class="header__navigation">
-                <ul class="navigation">
-                    <li class="navigation_list navigation_list_focused">Home</li>
-                    <li class="navigation_list">Services</li>
-                    <li class="navigation_list">Portfolio</li>
-                    <li class="navigation_list">About</li>
-                    <li class="navigation_list">Contact</li>
+                <ul class="navigation" id="menu">
+                    <li class="navigation_list"><a class="navigation_list__link navigation_list__link-active" href="#slider">Home</a></li>
+                    <li class="navigation_list"><a class="navigation_list__link" href="#services">Services</a></li>
+                    <li class="navigation_list"><a class="navigation_list__link" href="#portfolio">Portfolio</a></li>
+                    <li class="navigation_list"><a class="navigation_list__link" href="#about">About</a></li>
+                    <li class="navigation_list"><a class="navigation_list__link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
 
     </header>
-    <div class="slider">
-        <div class="wrapper slider__wrapper">
+    <div class="slider" id="slider">
+        <div class="wrapper slider__wrapper" id="slider__wrapper">
             <div class="slider__content">
                 <div class="phone_vertical">
-                    <img src="assets/img/Phone_Vertical.png" alt="Phone vertical">
+                    <img src="assets/img/Phone_Vertical.png" alt="Phone vertical" id="phone__vertical">
                 </div>
                 <div class="phone_horizontal">
-                    <img src="assets/img/Phone_Horizontal.png" alt="Phone horizontal">
+                    <img src="assets/img/Phone_Horizontal.png" alt="Phone horizontal" id="phone__horizontal">
                 </div>
+                <div class="phone__vertical-shadow" id="phone__vertical-shadow"></div>
+                <div class="phone__horizontal-shadow" id="phone__horizontal-shadow"></div>
             </div>
+            <div class="slider__content slide-2">
+
+                <img src="assets/img/Slide-2.png" alt="Slide-2">
+
+
+            </div>
+
             <div class="arrows-prev-next">
                 <div class="arrows arrows__prev">
-                    <img src="assets/img/arrow_prev.png" alt="arrow prev">
+                    <img src="assets/img/arrow_prev.png" alt="arrow prev" id="arrows_prev">
                 </div>
                 <div class="arrows arrows__next">
-                    <img src="assets/img/arrow_next.png" alt="arrow next">
+                    <img src="assets/img/arrow_next.png" alt="arrow next" id="arrows_next">
                 </div>
             </div>
 
         </div>
     </div>
-    <section class="services">
+    <section class="services" id="services">
         <div class="wrapper wrapper__services">
             <h2>Our Services</h2>
             <p class="services_description description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commondo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -101,96 +111,210 @@
         </div>
 
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="wrapper portfolio__wrapper">
 
             <h2>Portfolio</h2>
-            <p class="portfolio___description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-            <div class="portfolio__tags">
-                <span class="tag tag_selected">All</span>
+            <p class="portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            <div class="portfolio__tags" id="portfolio__tags">
+                <span class="tag tag_bordered tag_selected">All</span>
                 <span class="tag tag_bordered">Web Design</span>
                 <span class="tag tag_bordered">Graphic Design</span>
                 <span class="tag tag_bordered">Artwork</span>
             </div>
-            <div class="layout-4-column">
+            <div class="layout-4-column" id="portfolio__items">
                 <div class="portfolio__item">
                     <img src="assets/img/portfolio/1.png" alt="picture_1">
                 </div>
-                <div class="portfolio__item">
-                    <img src="assets/img/portfolio/2.png" alt="picture_2">
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/2.png " alt="picture_2">
                 </div>
                 <div class="portfolio__item">
                     <img src="assets/img/portfolio/3.png" alt="picture_3">
                 </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/4.png " alt="picture_4 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/5.png " alt="picture_5 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/6.png " alt="picture_6 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/7.png " alt="picture_7 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/8.png " alt="picture_8 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/9.png " alt="picture_9 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/10.png " alt="picture_10 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/11.png " alt="picture_11 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/12.png " alt="picture_12 ">
+                </div>
+            </div>
+            <div class="layout-4-column hide" id="portfolio__items">
                 <div class="portfolio__item">
-                    <img src="assets/img/portfolio/4.png" alt="picture_4">
+                    <img src="assets/img/portfolio/12.png" style="top: -31%; left: -16%;" alt="picture_1">
+                </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/1.png " style="top: -5%; left: -3%;" alt="picture_2">
                 </div>
                 <div class="portfolio__item">
-                    <img src="assets/img/portfolio/5.png" alt="picture_5">
+                    <img src="assets/img/portfolio/2.png" style="top: -23%; left: -37%;" alt="picture_3">
+                </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/3.png " style="left: -5%;" alt="picture_4 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/4.png " style="left: -11%;" alt="picture_5 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/5.png " style="top: -8%; left: -5%;" alt="picture_6 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/6.png " style="top: -1%; left: -7%;" alt="picture_7 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/7.png " style="top: -20%; left: -14%;" alt="picture_8 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/8.png " style="top: -16%; left: -11%;" alt="picture_9 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/9.png " style="top: -1%; left: -7%;" alt="picture_10 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/10.png " style="top: -60%; left: -64%;" alt="picture_11 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/11.png " style="top: -93%; left: -65%;" alt="picture_12 ">
+                </div>
+            </div>
+            <div class="layout-4-column hide" id="portfolio__items">
+                <div class="portfolio__item">
+                    <img src="assets/img/portfolio/11.png" style="top: -93%; left: -65%;" alt="picture_1">
+                </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/12.png " style="top: -31%; left: -16%;" alt="picture_2">
+                </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/1.png " style="top: -5%; left: -3%;" alt="picture_2">
                 </div>
                 <div class="portfolio__item">
-                    <img src="assets/img/portfolio/6.png" alt="picture_6">
+                    <img src="assets/img/portfolio/2.png" style="top: -23%; left: -37%;" alt="picture_3">
+                </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/3.png " style="left: -5%;" alt="picture_4 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/4.png " style="left: -11%;" alt="picture_5 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/5.png " style="top: -8%; left: -5%;" alt="picture_7 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/6.png " style="top: -1%; left: -7%;" alt="picture_8 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/7.png " style="top: -20%; left: -14%;" alt="picture_9 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/8.png " style="top: -16%; left: -11%;" alt="picture_10 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/9.png " style="top: -1%; left: -7%;" alt="picture_11 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/10.png " style="top: -60%; left: -64%;" alt="picture_12 ">
+                </div>
+            </div>
+            <div class="layout-4-column hide" id="portfolio__items">
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/10.png " style="top: -60%; left: -64%;" alt="picture_10 ">
                 </div>
                 <div class="portfolio__item">
-                    <img src="assets/img/portfolio/7.png" alt="picture_7">
+                    <img src="assets/img/portfolio/11.png" style="top: -93%; left: -65%;" alt="picture_1">
+                </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/12.png " style="top: -31%; left: -16%;" alt="picture_2">
+                </div>
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/1.png " style="top: -5%; left: -3%;" alt="picture_2">
                 </div>
                 <div class="portfolio__item">
-                    <img src="assets/img/portfolio/8.png" alt="picture_8">
+                    <img src="assets/img/portfolio/2.png" style="top: -23%; left: -37%;" alt="picture_3">
                 </div>
-                <div class="portfolio__item">
-                    <img src="assets/img/portfolio/9.png" alt="picture_9">
+                <div class=" portfolio__item ">
+                    <img src="assets/img/portfolio/3.png " style="left: -5%;" alt="picture_4 ">
                 </div>
-                <div class="portfolio__item">
-                    <img src="assets/img/portfolio/10.png" alt="picture_10">
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/4.png " style="left: -11%;" alt="picture_5 ">
                 </div>
-                <div class="portfolio__item">
-                    <img src="assets/img/portfolio/11.png" alt="picture_11">
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/5.png " style="top: -8%; left: -5%;" alt="picture_7 ">
                 </div>
-                <div class="portfolio__item">
-                    <img src="assets/img/portfolio/12.png" alt="picture_12">
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/6.png " style="top: -1%; left: -7%;" alt="picture_8 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/7.png " style="top: -20%; left: -14%;" alt="picture_9 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/8.png " style="top: -16%; left: -11%;" alt="picture_10 ">
+                </div>
+                <div class="portfolio__item ">
+                    <img src="assets/img/portfolio/9.png " style="top: -1%; left: -7%;" alt="picture_11 ">
                 </div>
             </div>
         </div>
 
     </section>
-    <section class="about-us">
-        <div class="wrapper about-us__wrapper">
+    <section class="about-us" id="about">
+        <div class="wrapper about-us__wrapper ">
             <h2>About Us</h2>
-            <p class="about-us___description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <div class="layout-3-column">
-                <div class="about-us__item">
-                    <img src="assets/img/about-us/1.png" alt="people_1">
-                    <h3 class="about-us__name">Adam Jensen</h3>
-                    <p class="about-us__information">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                    <div class="about-us__social_networks">
-                        <span class="icon facebook"></span>
-                        <span class="icon google"></span>
-                        <span class="icon twitter"></span>
-                        <span class="icon linkedin"></span>
+            <p class="about-us__description ">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="layout-3-column ">
+                <div class="about-us__item ">
+                    <img src="assets/img/about-us/1.png " alt="people_1 ">
+                    <h3 class="about-us__name ">Adam Jensen</h3>
+                    <p class="about-us__information ">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                    <div class="about-us__social_networks ">
+                        <span class="icon facebook "></span>
+                        <span class="icon google "></span>
+                        <span class="icon twitter "></span>
+                        <span class="icon linkedin "></span>
                     </div>
                 </div>
-                <div class="about-us__item">
-                    <img src="assets/img/about-us/2.png" alt="people_2">
-                    <h3 class="about-us__name">Desmond Miles</h3>
-                    <p class="about-us__information">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                <div class="about-us__item ">
+                    <img src="assets/img/about-us/2.png " alt="people_2 ">
+                    <h3 class="about-us__name ">Desmond Miles</h3>
+                    <p class="about-us__information ">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
 
-                    <div class="about-us__social_networks">
+                    <div class="about-us__social_networks ">
 
-                        <span class="icon facebook"></span>
-                        <span class="icon google"></span>
-                        <span class="icon twitter"></span>
-                        <span class="icon linkedin"></span>
+                        <span class="icon facebook "></span>
+                        <span class="icon google "></span>
+                        <span class="icon twitter "></span>
+                        <span class="icon linkedin "></span>
                     </div>
                 </div>
-                <div class="about-us__item">
-                    <img src="assets/img/about-us/3.png" alt="people_3">
-                    <h3 class="about-us__name">Scolara Visari</h3>
-                    <p class="about-us__information">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpus, et consequat felis. Quisque condimentum.</p>
-                    <div class="about-us__social_networks">
-                        <span class="icon facebook"></span>
-                        <span class="icon google"></span>
-                        <span class="icon twitter"></span>
-                        <span class="icon linkedin"></span>
+                <div class="about-us__item ">
+                    <img src="assets/img/about-us/3.png " alt="people_3 ">
+                    <h3 class="about-us__name ">Scolara Visari</h3>
+                    <p class="about-us__information ">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpus, et consequat felis. Quisque condimentum.</p>
+                    <div class="about-us__social_networks ">
+                        <span class="icon facebook "></span>
+                        <span class="icon google "></span>
+                        <span class="icon twitter "></span>
+                        <span class="icon linkedin "></span>
                     </div>
                 </div>
             </div>
@@ -198,39 +322,39 @@
         </div>
         </div>
     </section>
-    <section class="quote">
-        <div class="wrapper wrapper_quote">
-            <h2 class="quote__head" quote_>Get a Quote</h2>
-            <p class="quote__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <div class="layout-2-column">
-                <div class="quote__form">
-                    <form action method="post">
-                        <input type="text" name="name" placeholder="Name (Required)">
-                        <input type="email" name="email" placeholder="Email( Required)">
-                        <input type="text" name="subject" placeholder="Subject">
-                        <textarea name="details" placeholder="Describe your project in detail..."></textarea>
+    <section class="quote" id="contact">
+        <div class="wrapper wrapper_quote ">
+            <h2 class="quote__head " quote_>Get a Quote</h2>
+            <p class="quote__description ">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="layout-2-column ">
+                <div class="quote__form ">
+                    <form action method="post ">
+                        <input required type="text " name="name " id="name" placeholder="Name (Required) ">
+                        <input required type="email " name="email " id="email" placeholder="Email( Required) ">
+                        <input type="text " name="subject " placeholder="Subject " id="subject">
+                        <textarea name="details " id="details" placeholder="Describe your project in detail... "></textarea>
 
-                        <div class="quote__button">
-                            <button class="button" type="submit" value="submit">Submit</button>
+                        <div class="quote__button ">
+                            <button class="button " type="submit " value="submit " id="submit">Submit</button>
                         </div>
                     </form>
 
                 </div>
 
                 <div class="quote__content">
-                    <h3 class="quote__title">Contact Information</h3>
-                    <p class="quote__info">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat liber. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+                    <h3 class="quote__title ">Contact Information</h3>
+                    <p class="quote__info ">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat liber. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
 
-                    <div class="quote__location">
-                        <span class="ico ico_location"></span>
-                        <p class="info_location">Elm St. 14/05 Lost City</p>
+                    <div class="quote__location ">
+                        <span class="ico ico_location "></span>
+                        <p class="info_location ">Elm St. 14/05 Lost City</p>
 
                     </div>
-                    <div class="quote__phone">
-                        <span class="ico ico_phone"></span><a href="tel:+375291111111">03528 331 86 35</a>
+                    <div class="quote__phone ">
+                        <span class="ico ico_phone "></span><a href="tel:+375291111111 ">03528 331 86 35</a>
                     </div>
-                    <div class="quote__mail">
-                        <span class="ico ico_mail"></span><a href="mailto:info@singolo.com">info@singolo.com</a>
+                    <div class="quote__mail ">
+                        <span class="ico ico_mail "></span><a href="mailto:info@singolo.com ">info@singolo.com</a>
                     </div>
                 </div>
 
@@ -240,17 +364,27 @@
     <footer class="footer">
         <div class="wrapper wrapper_footer">
             <span class="footer__copyright">  &copy; Copyright 2013</span>
-            <div class="footer__social_networks">
-                <span class="icon facebook"></span>
-                <span class="icon google"></span>
-                <span class="icon twitter"></span>
-                <span class="icon linkedin"></span>
+            <div class="footer__social_networks ">
+                <span class="icon facebook "></span>
+                <span class="icon google "></span>
+                <span class="icon twitter "></span>
+                <span class="icon linkedin "></span>
             </div>
 
 
         </div>
     </footer>
 
+    <div class="wrapper_modal">
+        <div class="modal-window">
+            <div class="modal-window__title">Письмо отправлено</div>
+            <div class="modal-window__text" id="topic">Без темы</div>
+            <div class="modal-window__text" id="description">Без описания</div>
+
+            <button class="button" id="btn">Ok</button>
+        </div>
+    </div>
+    <script src="script.js "></script>
 
 </body>
 
