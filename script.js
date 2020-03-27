@@ -12,7 +12,7 @@ const PHONE_HORIZ = document.getElementById('phone__horizontal');
 const PORTFOLIO = document.querySelector('.portfolio__tags');
 
 
-
+ 
 //  FORM 
 const EMAIL = document.getElementById('email');
 const NAME = document.getElementById('name');
@@ -32,6 +32,26 @@ const PORTFOLIO_MENU_TAGS = document.querySelector('#portfolio__tags');
 const PORTFOLIO_TAGS = document.querySelectorAll('.tag');
 
 
+const BURGER = document.getElementById('burger');
+const NAV = document.getElementById('nav');
+let c = true;
+BURGER.addEventListener('click', function (event) {
+    console.log(event.target);
+     
+    if(c){
+
+     BURGER.classList.remove('burger-active');
+     NAV.classList.remove('header__navigation-active');
+     c = false;
+    }else {
+
+        document.getElementById('burger').classList.add('burger-active');
+        NAV.classList.add('header__navigation-active');
+        c = true;
+    }
+     
+
+})
 
 // ITEMS FROM TAGS
 PORTFOLIO_MENU_TAGS.addEventListener('click', function(e) {
